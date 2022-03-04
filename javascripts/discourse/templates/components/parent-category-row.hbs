@@ -10,7 +10,7 @@
 
       <div class='category-logo'>
         <div class='logo aspect-image' style='--aspect-ratio: 1;'>
-          <img src='{{category.uploaded_logo.url}}' width='320' height='320' alt='' />
+          <img src='{{category.uploaded_logo.url}}' width='{{category.uploaded_logo.width}}' height='{{category.uploaded_logo.height}}' alt='' />
         </div>
       </div>
 
@@ -25,9 +25,6 @@
                 {{/if}}
                 <span class='category-name'>{{dir-span category.name}}</span>
               </div>
-              {{#if category.uploaded_logo.url}}
-                {{cdn-img src=category.uploaded_logo.url class='category-logo' width=category.uploaded_logo.width height=category.uploaded_logo.height}}
-              {{/if}}
             </h3>
             {{#if category.description_excerpt}}
               <div class='category-description'>
