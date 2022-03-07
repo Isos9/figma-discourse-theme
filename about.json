@@ -2,5 +2,11 @@
   "name": "Figma Discourse Theme",
   "about_url": "https://some.url.com",
   "license_url": "https://github.com/bluematter/figma-discourse-theme/blob/main/LICENSE",
-  "component": false
+  "component": false,
+  "color_schemes": {
+    “My_colors”: {
+    "primary": "000000",
+    "secondary": "ffffff"
+    }
+  }
 }
