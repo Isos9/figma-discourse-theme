@@ -4,9 +4,9 @@
   "license_url": "https://github.com/bluematter/figma-discourse-theme/blob/main/LICENSE",
   "component": false,
   "color_schemes": {
-    “My_colors”: {
-    "primary": "000000",
-    "secondary": "ffffff"
+    "My colors": {
+      "primary": "000000",
+      "secondary": "ffffff"
     }
   }
 }
