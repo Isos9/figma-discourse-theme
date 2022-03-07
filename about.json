@@ -2,7 +2,7 @@
   "name": "Figma Discourse Theme",
   "about_url": "https://some.url.com",
   "license_url": "https://github.com/bluematter/figma-discourse-theme/blob/main/LICENSE",
-  "component": false,
+  "component": true,
   "color_schemes": {
     "My colors": {
       "primary": "000000",
