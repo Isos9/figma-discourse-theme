@@ -507,9 +507,9 @@ input[type]:focus,
 }
 
 .category-breadcrumb {
-  .select-kit-body {
-    transform: translate(0px, 32px) !important;
-  }
+  // .select-kit-body {
+  //   transform: translate(0px, 32px) !important;
+  // }
   & > *,
   & > li {
     align-self: center;
