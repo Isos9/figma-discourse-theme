@@ -10,6 +10,12 @@ Color Definitions
 .search-container .search-bar button {
   width: inherit !important;
 }
+.search-container .search-bar {
+  background-color: transparent;
+}
+.search-container .search-filters {
+  background-color: transparent;
+}
 
 @mixin shared-colors {
   --blue-tint: #699bf7;
