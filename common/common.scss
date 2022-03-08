@@ -97,8 +97,7 @@ Discourse, e.g. "admin" (the admin interface) and "menu-panels" (the
 dropdown panels that appear throughout the desktop application). 
 
 If you're looking to make a change to the theme, locate the module you
-want to update, find the selector, and make the changes you need.
-*/
+want to update, find the selector, and make the changes you need. */
 
 /* Options */
 $dark-mode: false !default;
@@ -127,42 +126,6 @@ $header-text: false !default;
 *:focus {
   outline-color: var(--fg-high-contrast);
   outline-width: 0px;
-}
-
-@font-face {
-  /* 'Poppins-Regular' */
-  font-family: 'poppins';
-  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-Regular.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'poppins';
-  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-Medium.ttf') format('truetype');
-  font-weight: 500; /* Medium */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'poppins';
-  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-MediumItalic.ttf') format('truetype');
-  font-weight: 500; /* Medium italics */
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'poppins';
-  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-SemiBold.ttf') format('truetype');
-  font-weight: 600; /* SemiBold */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'poppins';
-  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-Bold.ttf') format('truetype');
-  font-weight: 700; /* Bold */
-  font-style: normal;
 }
 
 input[type='text'],
