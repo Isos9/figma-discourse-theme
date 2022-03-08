@@ -956,16 +956,16 @@ tr {
         }
       }
     }
-    &.visited {
-      a.title:not(.badge-notification) {
-        color: var(--fg-high-contrast);
-        font-weight: 400;
-        &:hover {
-          color: var(--fg-high-contrast);
-          font-weight: 400;
-        }
-      }
-    }
+    // &.visited {
+    //   a.title:not(.badge-notification) {
+    //     color: var(--fg-high-contrast);
+    //     font-weight: 400;
+    //     &:hover {
+    //       color: var(--fg-high-contrast);
+    //       font-weight: 400;
+    //     }
+    //   }
+    // }
   }
   .topic-list-item-separator {
     td {
