@@ -20,6 +20,10 @@ colors are accessible to AA status. Please try to keep contrast ratios
 high for accessibility when making changes and choosing colors.
 */
 
+.alert.alert-info {
+  background-color: $secondary;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     /*
