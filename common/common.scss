@@ -207,6 +207,10 @@ div.ac-wrap {
   border: none;
 }
 
+.alert.alert-info {
+  background-color: $secondary;
+}
+
 /* Layout */
 .wrap {
   max-width: initial;
