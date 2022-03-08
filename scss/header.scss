@@ -14,6 +14,10 @@ is shown.
   // margin-bottom: 32px;
   > .wrap {
     width: 100%;
+    display: block;
+    height: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   #site-text-logo {
     font-size: 0;
