@@ -53,6 +53,7 @@ is shown.
     grid-auto-flow: column;
   }
   .header-buttons {
+    padding: 10px;
     grid-column: 2;
     margin-top: 0;
     .btn {
