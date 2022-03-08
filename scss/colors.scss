@@ -11,7 +11,7 @@ Color Definitions
   width: inherit !important;
 }
 
-%shared-colors {
+@mixin shared-colors {
   --blue-tint: #699bf7;
   --coral: #ff8577;
   --golden-yellow: #ffc700;
@@ -45,13 +45,13 @@ Color Definitions
 
 @media (prefers-color-scheme: light) {
   :root {
-    @extend %shared-colors;
+    @include shared-colors;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    @extend %shared-colors;
+    @include shared-colors;
   }
 }
 
