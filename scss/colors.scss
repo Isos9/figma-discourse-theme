@@ -24,6 +24,10 @@ high for accessibility when making changes and choosing colors.
   background-color: #c6e0b485 !important;
 }
 
+.search-container .search-bar button {
+  width: inherit !important;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     /*
@@ -59,8 +63,11 @@ high for accessibility when making changes and choosing colors.
     font color we use).
     */
     --bg: #ffffff;
-    --bold-bg: #1b4721;
+    --primary: #222;
+    --primary-very-low: #c6e0b485;
+    --header_primary: #333;
     --secondary: #ffffff;
+    --tertiary-medium: #ffffff;
     --header_background: #ffffff;
     --fg-high-contrast: #000000;
     --fg-medium-contrast: #333333;
@@ -71,6 +78,7 @@ high for accessibility when making changes and choosing colors.
     --modal-fg: #333333;
     --surface-high-contrast: #d6d6d6;
     --surface-low-contrast: #f5f5f5;
+    --community-blue: #222;
   }
 }
 
