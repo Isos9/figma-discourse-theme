@@ -902,12 +902,12 @@ tr {
           text-decoration-thickness: 2px;
           text-underline-offset: 3px;
         }
-        &:visited {
-          color: var(--fg-medium-contrast);
-          &:hover {
-            text-decoration-color: currentColor;
-          }
-        }
+        // &:visited {
+        //   color: var(--fg-medium-contrast);
+        //   &:hover {
+        //     text-decoration-color: currentColor;
+        //   }
+        // }
       }
       a.badge-notification {
         background-color: transparent;
