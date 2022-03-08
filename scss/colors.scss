@@ -17,6 +17,10 @@ Color Definitions
   background-color: transparent;
 }
 
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header {
+  height: 100px;
+}
+
 @mixin shared-colors {
   --blue-tint: #699bf7;
   --coral: #ff8577;
