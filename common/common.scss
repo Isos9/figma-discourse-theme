@@ -129,6 +129,42 @@ $header-text: false !default;
   outline-width: 0px;
 }
 
+@font-face {
+  /* 'Poppins-Regular' */
+  font-family: 'poppins';
+  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-MediumItalic.ttf') format('truetype');
+  font-weight: 500; /* Medium italics */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('https://assets-sharetribecom.sharetribe.com/webfonts/poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
 input[type='text'],
 textarea,
 div.ac-wrap input[type='text'] {
