@@ -59,12 +59,10 @@ high for accessibility when making changes and choosing colors.
     font color we use).
     */
     --bg: #ffffff;
-    --primary: #222;
-    --header_primary: #333;
+    --bold-bg: #1b4721;
     --secondary: #ffffff;
-    --tertiary-medium: #ffffff;
     --header_background: #ffffff;
-    --fg-high-contrast: #ffffff;
+    --fg-high-contrast: #000000;
     --fg-medium-contrast: #333333;
     --fg-low-contrast: #5d5d5d; /* previously was 939393 */
     --bold-fg: #ffffff;
@@ -116,7 +114,7 @@ high for accessibility when making changes and choosing colors.
     --secondary: #ffffff;
     --tertiary-medium: #ffffff;
     --header_background: #ffffff;
-    --fg-high-contrast: #ffffff;
+    --fg-high-contrast: #000000;
     --fg-medium-contrast: #333333;
     --fg-low-contrast: #5d5d5d; /* previously was 939393 */
     --bold-fg: #ffffff;
