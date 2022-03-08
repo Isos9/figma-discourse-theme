@@ -1972,7 +1972,6 @@ div.poll {
         display: inline-flex;
         font-size: 0;
         &:before {
-          content: url($zendesk-icon);
           display: inline-block;
           height: 16px;
           width: 16px;
@@ -1985,7 +1984,6 @@ div.poll {
     border-color: var(--bold-bg);
     color: var(--bold-fg);
     &:before {
-      content: url($zendesk-icon);
       display: inline-block;
       height: 16px;
       margin-right: 6px;
