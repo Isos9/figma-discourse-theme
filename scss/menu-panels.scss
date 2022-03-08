@@ -1,5 +1,4 @@
 /* 
-Figma Community Forum
 Menu panels
 ------------------------
 
@@ -169,7 +168,7 @@ items trigger a dropdown */
 
 /* Search menu */
 .search-menu {
-  input[type="text"] {
+  input[type='text'] {
     font-size: 1em;
     font-weight: 400;
     margin-bottom: 0px;
@@ -313,7 +312,7 @@ items trigger a dropdown */
         background-color: transparent;
         a:before {
           @include dot(var(--red), 6px);
-          content: "";
+          content: '';
           display: block;
           margin-top: 6px;
         }
@@ -324,7 +323,7 @@ items trigger a dropdown */
           font-weight: 500;
           &:after {
             color: inherit;
-            content: "›";
+            content: '›';
             display: inline-block;
             font-weight: 400;
             margin: 0 0px 0px 4px;

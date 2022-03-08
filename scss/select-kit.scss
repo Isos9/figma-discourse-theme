@@ -1,5 +1,4 @@
 /* 
-Figma Community Forum
 Select kit theming
 */
 
@@ -52,16 +51,16 @@ Select kit theming
       .select-kit-row {
         height: 32px;
         padding: 0px 16px 0px 8px;
-        &[data-value="all-categories"],
-        &[data-value="no-categories"] {
+        &[data-value='all-categories'],
+        &[data-value='no-categories'] {
           color: var(--modal-fg);
           font-size: 0.875em;
           font-weight: 500;
           padding: 6px 36px;
           width: max-content;
         }
-        &[data-value="all-tags"],
-        &[data-value="no-tags"] {
+        &[data-value='all-tags'],
+        &[data-value='no-tags'] {
           color: var(--fg-high-contrast);
           font-weight: 500;
         }

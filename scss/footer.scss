@@ -1,10 +1,9 @@
 /* 
-Figma Community Forum
 Footer
 */
 
 /* A majority of this comes from our static marketing site at
-https://www.figma.com/ and will need maintenance in the future */
+*/
 
 .footer {
   grid-column: 2;
@@ -49,7 +48,7 @@ https://www.figma.com/ and will need maintenance in the future */
       font-size: 0.875em;
       line-height: 1.5;
       letter-spacing: 0.02;
-      font-feature-settings: "salt" on, "ss01" on, "ss02" on, "ss03" on;
+      font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on, 'ss03' on;
       white-space: nowrap;
       margin-bottom: 16px;
       align-items: center;
