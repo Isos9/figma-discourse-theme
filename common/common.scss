@@ -860,7 +860,6 @@ tr {
         .link-top-line {
           a.title {
             font-weight: 500;
-            color: #5fc42a;
             img.emoji {
               padding-right: 0.3ch;
               height: 16px;
@@ -884,7 +883,7 @@ tr {
       display: flex;
       max-width: 660px;
       a {
-        color: $tertiary;
+        color: #5fc42a;
         font-size: 1em;
         font-weight: 400;
         line-height: 1.375em;
