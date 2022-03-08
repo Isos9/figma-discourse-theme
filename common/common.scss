@@ -502,13 +502,6 @@ input[type]:focus,
       margin-bottom: 0.5em;
     }
   }
-  #navigation-bar {
-    display: inline-block;
-    grid-area: navigation;
-    grid-column: -1/1;
-    grid-row: 2;
-    margin: 0 0; /* Discourse will add --nav-space margin otherwise */
-  }
   .navigation-controls {
     align-items: center;
     display: flex;
