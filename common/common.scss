@@ -860,6 +860,7 @@ tr {
         .link-top-line {
           a.title {
             font-weight: 500;
+            color: #5fc42a;
             img.emoji {
               padding-right: 0.3ch;
               height: 16px;
@@ -895,7 +896,6 @@ tr {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        color: #c6e0b485;
         &:hover {
           position: relative;
           text-decoration: underline;
