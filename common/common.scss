@@ -151,6 +151,45 @@ div.ac-wrap input[type='text'] {
   height: 500px;
 }
 
+
+#main .banner-box .container .section-header .banner_content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+#main .banner-box .container .section-header .banner_content h1 {
+  font-size: 2vw;
+}
+
+#main .banner-box .container .section-header .banner_content h4 {
+  font-size: 12px;
+}
+
+#main .banner-box .container .section-header .banner_content .banner_button {
+  margin: 0;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 2px;
+  background-color: #c6e0b4;
+  color: #1b4721;
+  text-align: center;
+  text-decoration: none;
+  transition: all ease-in-out 0.1s;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    background-color: #1b4721;
+    text-decoration: none;
+
+    color: white;
+  }
+}
+
 .custom-header-links .headerLink a {
   font-size: 0.875em;
 }
