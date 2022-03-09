@@ -145,12 +145,10 @@ div.ac-wrap input[type='text'] {
   justify-content: center;
 }
 
-
 #main .banner-box .container .section-header img {
   width: 500px;
   height: 500px;
 }
-
 
 #main .banner-box .container .section-header .banner_content {
   display: flex;
@@ -167,7 +165,8 @@ div.ac-wrap input[type='text'] {
 }
 
 #main .banner-box .container .section-header .banner_content h4 {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: normal;
   color: grey;
 }
 
@@ -182,6 +181,7 @@ div.ac-wrap input[type='text'] {
   text-decoration: none;
   transition: all ease-in-out 0.1s;
   cursor: pointer;
+  font-weight: bold;
 
   display: block;
   width: 260px;
