@@ -180,6 +180,9 @@ div.ac-wrap input[type='text'] {
   transition: all ease-in-out 0.1s;
   cursor: pointer;
 
+  display: block;
+  width: 260px;
+
   &:hover,
   &:focus {
     outline: none;
