@@ -155,7 +155,7 @@ div.ac-wrap input[type='text'] {
 #main .banner-box .container .section-header .banner_content {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   padding-top: 6rem;
   padding-bottom: 10rem;
 }
@@ -163,6 +163,7 @@ div.ac-wrap input[type='text'] {
 #main .banner-box .container .section-header .banner_content h1 {
   font-size: 2vw;
   color: white;
+  text-align: left;
 }
 
 #main .banner-box .container .section-header .banner_content h4 {
