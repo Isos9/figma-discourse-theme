@@ -8,15 +8,9 @@
   >
     <div class='category-box-inner {{if isMuted "muted"}} {{if noCategoryStyle "no-category-style"}}' style={{unless noCategoryStyle (border-color category.color)}}>
 
-      <div class='category-logo'>
-        <div class='logo aspect-image' style='--aspect-ratio: 1;'>
-          <img src='{{category.uploaded_logo.url}}' width='{{category.uploaded_logo.width}}' height='{{category.uploaded_logo.height}}' alt='' />
-        </div>
-      </div>
-
       <div class='category-details'>
         <div class='category-box-heading'>
-          <a class='parent-box-link'>
+          <a class='parent-box-link' href='{{category.url}}'>
             <h3>
               <div class='category-text-title'>
                 {{category-title-before category=category}}
