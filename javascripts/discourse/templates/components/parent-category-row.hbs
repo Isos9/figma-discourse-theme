@@ -23,7 +23,7 @@
                 {{#if category.read_restricted}}
                   {{d-icon lockIcon}}
                 {{/if}}
-                <span class='category-name'>{{dir-span category.name}}</span>
+                <span class='category-name'>{{dir-span category.name}} **</span>
               </div>
             </h3>
             {{#if category.description_excerpt}}
@@ -45,6 +45,7 @@
           </a>
         </div>
       </div>
+
       <div class='category-activities'>
         <div class='category-activity'>
           <h3>{{category.topic_count}}</h3>
