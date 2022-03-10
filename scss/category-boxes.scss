@@ -175,13 +175,13 @@ Category boxes & other related ephemera
     max-height: 3em;
     text-align: left;
   }
-  .activities {
+  .category-activities {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 15px;
-    .activity {
+    .category-activity {
       display: flex;
       flex-direction: row;
       gap: 5px;
