@@ -31,6 +31,16 @@
                 {{dir-span category.description_excerpt}}
               </div>
             {{/if}}
+            <div class='activities'>
+              <div class='activity'>
+                <h3>{{category.topic_count}}</h3>
+                <span>TOPICS</span>
+              </div>
+              <div class='activity'>
+                <h3>{{category.post_count}}</h3>
+                <span>POSTS</span>
+              </div>
+            </div>
             {{#if category.isGrandParent}}
               {{#each category.subcategories as |subcategory|}}
                 {{sub-category-row category=subcategory listType=listType}}
