@@ -16,14 +16,14 @@
 
       <div class='category-details'>
         <div class='category-box-heading'>
-          <a class='parent-box-link' href='{{category.url}}'>
+          <a class='parent-box-link'>
             <h3>
               <div class='category-text-title'>
                 {{category-title-before category=category}}
                 {{#if category.read_restricted}}
                   {{d-icon lockIcon}}
                 {{/if}}
-                <span class='category-name'>{{dir-span category.name}} **</span>
+                <span class='category-name'>{{dir-span category.name}}</span>
               </div>
             </h3>
             {{#if category.description_excerpt}}
