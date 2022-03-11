@@ -6,8 +6,12 @@ This file themes the top-bar of Discourse. There is a setting
 is shown. 
 */
 
+.custom-header-links .headerLink a {
+  color: white;
+}
+
 .d-header {
-  border-bottom: 1px solid var(--surface-high-contrast);
+  background-color: black;
   box-shadow: none;
   height: 72px;
   // margin-bottom: 32px;
@@ -92,7 +96,6 @@ is shown.
     }
   }
   .d-icon {
-    color: var(--fg-high-contrast);
     font-size: 16px; // Icon
   }
   .icon {
