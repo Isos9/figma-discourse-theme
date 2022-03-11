@@ -6,6 +6,11 @@ This file themes the top-bar of Discourse. There is a setting
 is shown. 
 */
 
+.badge-wrapper.bullet .badge-category-parent-bg,
+.badge-wrapper.bullet .badge-category-bg {
+  background-color: white !important;
+}
+
 .custom-header-links .headerLink a {
   color: white;
 }
