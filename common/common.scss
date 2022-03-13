@@ -154,14 +154,19 @@ div.ac-wrap input[type='text'] {
 }
 
 #main .banner-box .container .section-header img {
-  width: 350px;
-  height: 350px;
+  width: 50%;
   opacity: 0.3;
   z-index: 0;
   position: absolute;
   top: 60px;
 
+  @media (min-width: 500px) {
+    height: 70%;
+  }
+
   @media (min-width: $bp-tablet) {
+    width: 350px;
+    height: 350px;
     opacity: 1;
     position: unset;
   }
@@ -175,7 +180,6 @@ div.ac-wrap input[type='text'] {
   position: relative;
   padding-top: 6rem;
   padding-bottom: 6rem;
-
 
   @media (min-width: $bp-tablet) {
     gap: 10px;
