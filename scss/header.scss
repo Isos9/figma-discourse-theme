@@ -17,6 +17,7 @@ is shown.
   display: none;
 
   @media (min-width: $bp-tablet) {
+    padding: 10px;
     display: inline-flex;
   }
 }
@@ -70,7 +71,6 @@ is shown.
     grid-auto-flow: column;
   }
   .header-buttons {
-    // padding: 10px;
     grid-column: 2;
     margin-top: 0;
 
