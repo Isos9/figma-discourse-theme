@@ -1,3 +1,4 @@
+$bp-tablet: 768px;
 /* 
 Menu panels
 ------------------------
@@ -42,8 +43,11 @@ items trigger a dropdown */
   /* This positions where the dropdown appears on desktop relative
   to where ul.d-header-icons is */
   &.drop-down {
-    right: 300px;
     top: 48px !important;
+
+    @media (min-width: $bp-tablet) {
+      right: 300px;
+    }
   }
   b {
     &.topics-count {
