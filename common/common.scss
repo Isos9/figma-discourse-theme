@@ -170,11 +170,12 @@ div.ac-wrap input[type='text'] {
   z-index: 1;
   position: relative;
   padding-top: 6rem;
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 
 
   @media (min-width: $bp-tablet) {
     gap: 10px;
+    padding-bottom: 10rem;
   }
 }
 
