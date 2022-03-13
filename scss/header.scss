@@ -86,9 +86,16 @@ is shown.
       color: var(--bold-fg);
     }
     .login-button {
-      font-size: 1.125em !important;
+      font-size: 0.9em !important;
       height: revert;
       margin-left: 16px;
+      padding: 6px 10px;
+
+      @media (min-width: $bp-tablet) {
+        font-size: 1.125em !important;
+        padding: inherit;
+      }
+
       .d-icon {
         display: none;
       }
