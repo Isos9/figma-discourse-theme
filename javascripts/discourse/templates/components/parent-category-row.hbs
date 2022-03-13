@@ -23,7 +23,7 @@
                 {{#if category.read_restricted}}
                   {{d-icon lockIcon}}
                 {{/if}}
-                <span class='category-name'>{{dir-span category.name}}_test</span>
+                <span class='category-name'>{{dir-span category.name}}</span>
               </div>
             </h3>
             {{#if category.description_excerpt}}
@@ -43,17 +43,6 @@
               </div>
             {{/if}}
           </a>
-        </div>
-      </div>
-
-      <div class='category-activities'>
-        <div class='category-activity'>
-          <h3>{{category.topic_count}}</h3>
-          <span>TOPICS</span>
-        </div>
-        <div class='category-activity'>
-          <h3>{{category.post_count}}</h3>
-          <span>POSTS</span>
         </div>
       </div>
     </div>
