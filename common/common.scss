@@ -130,6 +130,10 @@ div.ac-wrap input[type='text'] {
   }
 }
 
+.drop-down-mode .d-header-icons .active .icon .d-icon {
+  color: white;
+}
+
 #main .banner-box {
   background-color: #000;
 }
@@ -825,6 +829,12 @@ tr {
 
 .topic-list {
   border-collapse: separate;
+  border-spacing: 3px;
+
+  @media (min-width: $bp-tablet) {
+    border-spacing: 0px;
+  }
+
   thead {
     th {
       background-color: var(--surface-low-contrast);
