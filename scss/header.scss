@@ -17,7 +17,7 @@ is shown.
   display: none;
 
   @media (min-width: $bp-tablet) {
-    display: block;
+    display: inline-flex;
   }
 }
 
@@ -73,6 +73,10 @@ is shown.
     padding: 10px;
     grid-column: 2;
     margin-top: 0;
+
+    @media (min-width: $bp-tablet) {
+      display: block;
+    }
 
     .btn {
       @include text-button-large();
