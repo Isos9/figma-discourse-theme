@@ -1,3 +1,5 @@
+$bp-tablet: 768px;
+
 /* 
 Header
 
@@ -63,6 +65,12 @@ is shown.
     padding: 10px;
     grid-column: 2;
     margin-top: 0;
+    display: none;
+
+    @media (min-width: $bp-tablet) {
+      display: block;
+    }
+
     .btn {
       @include text-button-large();
     }
