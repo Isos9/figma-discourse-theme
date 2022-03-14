@@ -14,9 +14,9 @@ Buttons
   padding: 0 8px;
   text-transform: capitalize;
   transition: none;
-  &[href] {
-    color: var(--fg-high-contrast);
-  }
+  // &[href] {
+  //   color: var(--fg-high-contrast);
+  // }
   &.no-text {
     .d-icon {
       margin: 0px auto;
