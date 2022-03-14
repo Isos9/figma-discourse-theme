@@ -166,6 +166,10 @@ items trigger a dropdown */
           background-color: transparent !important;
         }
       }
+      a.widget-link.home {
+        font-weight: bold;
+        color: var(--tertiary);
+      }
     }
   }
 }
