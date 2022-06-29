@@ -259,6 +259,11 @@ div.ac-wrap {
   overflow: revert;
 }
 
+#main-outlet-wrapper {
+  margin: auto !important;
+  max-width: 1600px !important;
+}
+
 #main-outlet {
   padding: 0 0;
   margin-bottom: 6em;
